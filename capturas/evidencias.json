@@ -1,0 +1,964 @@
+{
+  "proyecto": "ROPA DE SEGUNDA MANO",
+  "fecha": "2026-10-16",
+  "generado": "2026-10-16T11:07:17.806Z",
+  "navegador": {
+    "canal": "msedge",
+    "version": "154.0.4258.62"
+  },
+  "viewport": {
+    "width": 1366,
+    "height": 900
+  },
+  "url": "http://127.0.0.1:5173",
+  "configuracion": {
+    "chat_model": "gpt-4.1-mini",
+    "embedding_model": "text-embedding-3-small",
+    "umbral": 0.38
+  },
+  "casos": [
+    {
+      "pregunta": "Prendas disponibles talla 38",
+      "respuesta": {
+        "estado": "ok",
+        "respuesta": "Las prendas disponibles en talla 38 son:\n1. Vaqueros rectos, categoría Pantalones, color Azul, marca Levi’s, en buen estado, precio 22 euros, vendedor alias denim.luis.\n2. Falda midi negra, categoría Faldas, color Negro, marca Zara, en estado como nuevo, precio 14 euros, vendedor alias marta.circular.\n3. Americana de lino, categoría Chaquetas, color Arena, marca Mango, en estado muy bueno, precio 24 euros, vendedor alias ana.rewear.",
+        "fuentes": [
+          {
+            "documento": "prendas.csv",
+            "registro_id": "PRE002",
+            "fragmento": "{\"categoria\": \"Pantalones\", \"color\": \"Azul\", \"conservacion\": \"Bueno\", \"disponibilidad\": \"Disponible\", \"fecha_alta\": \"2026-10-02\", \"marca\": \"Levi’s\", \"precio_publicado_eur\": 22.0, \"prenda_id\": \"PRE002\", \"talla\": \"38\", \"titulo\": \"Vaqueros rectos\", \"vendedor_id\": \"V002\"}"
+          },
+          {
+            "documento": "prendas.csv",
+            "registro_id": "PRE007",
+            "fragmento": "{\"categoria\": \"Faldas\", \"color\": \"Negro\", \"conservacion\": \"Como nuevo\", \"disponibilidad\": \"Disponible\", \"fecha_alta\": \"2026-10-07\", \"marca\": \"Zara\", \"precio_publicado_eur\": 14.0, \"prenda_id\": \"PRE007\", \"talla\": \"38\", \"titulo\": \"Falda midi negra\", \"vendedor_id\": \"V003\"}"
+          },
+          {
+            "documento": "prendas.csv",
+            "registro_id": "PRE011",
+            "fragmento": "{\"categoria\": \"Chaquetas\", \"color\": \"Arena\", \"conservacion\": \"Muy bueno\", \"disponibilidad\": \"Disponible\", \"fecha_alta\": \"2026-10-10\", \"marca\": \"Mango\", \"precio_publicado_eur\": 24.0, \"prenda_id\": \"PRE011\", \"talla\": \"38\", \"titulo\": \"Americana de lino\", \"vendedor_id\": \"V001\"}"
+          },
+          {
+            "documento": "vendedores.csv",
+            "registro_id": "V002",
+            "fragmento": "{\"alias\": \"denim.luis\", \"vendedor_id\": \"V002\"}"
+          },
+          {
+            "documento": "vendedores.csv",
+            "registro_id": "V003",
+            "fragmento": "{\"alias\": \"marta.circular\", \"vendedor_id\": \"V003\"}"
+          },
+          {
+            "documento": "vendedores.csv",
+            "registro_id": "V001",
+            "fragmento": "{\"alias\": \"ana.rewear\", \"vendedor_id\": \"V001\"}"
+          }
+        ],
+        "datos": {
+          "prendas": [
+            {
+              "prenda_id": "PRE002",
+              "titulo": "Vaqueros rectos",
+              "categoria": "Pantalones",
+              "marca": "Levi’s",
+              "talla": "38",
+              "color": "Azul",
+              "conservacion": "Bueno",
+              "precio_publicado_eur": 22,
+              "disponibilidad": "Disponible",
+              "vendedor_id": "V002",
+              "fecha_alta": "2026-10-02",
+              "alias": "denim.luis"
+            },
+            {
+              "prenda_id": "PRE007",
+              "titulo": "Falda midi negra",
+              "categoria": "Faldas",
+              "marca": "Zara",
+              "talla": "38",
+              "color": "Negro",
+              "conservacion": "Como nuevo",
+              "precio_publicado_eur": 14,
+              "disponibilidad": "Disponible",
+              "vendedor_id": "V003",
+              "fecha_alta": "2026-10-07",
+              "alias": "marta.circular"
+            },
+            {
+              "prenda_id": "PRE011",
+              "titulo": "Americana de lino",
+              "categoria": "Chaquetas",
+              "marca": "Mango",
+              "talla": "38",
+              "color": "Arena",
+              "conservacion": "Muy bueno",
+              "precio_publicado_eur": 24,
+              "disponibilidad": "Disponible",
+              "vendedor_id": "V001",
+              "fecha_alta": "2026-10-10",
+              "alias": "ana.rewear"
+            }
+          ]
+        }
+      },
+      "captura": {
+        "archivo": "capturas/01-chat-talla38.png",
+        "ancho": 1366,
+        "alto": 1657,
+        "sha256": "e31cdf8131270b58fe44f3afb41d2da5d290066d1a2d567eabaf6869a172715b"
+      },
+      "verificacion": {
+        "resultado": "Coinciden las 3 prendas disponibles de talla 38. EU 38 queda fuera.",
+        "fuentes": [
+          {
+            "documento": "prendas.csv",
+            "registro_id": "PRE002",
+            "coincide": true
+          },
+          {
+            "documento": "prendas.csv",
+            "registro_id": "PRE007",
+            "coincide": true
+          },
+          {
+            "documento": "prendas.csv",
+            "registro_id": "PRE011",
+            "coincide": true
+          },
+          {
+            "documento": "vendedores.csv",
+            "registro_id": "V002",
+            "coincide": true
+          },
+          {
+            "documento": "vendedores.csv",
+            "registro_id": "V003",
+            "coincide": true
+          },
+          {
+            "documento": "vendedores.csv",
+            "registro_id": "V001",
+            "coincide": true
+          }
+        ],
+        "coincide_con_api": true
+      }
+    },
+    {
+      "pregunta": "Calcular el importe de las ventas completadas, separando prendas y envío.",
+      "respuesta": {
+        "estado": "ok",
+        "respuesta": "El importe total de las ventas completadas es 56.0 EUR, compuesto por 49.0 EUR en prendas y 7.0 EUR en envío. Esto se obtiene sumando los precios acordados de las prendas de las tres ventas completadas (17.0 + 10.0 + 22.0 = 49.0 EUR) y considerando una sola vez el coste total de envío de 7.0 EUR, ya que es la suma de los envíos individuales (3.5 + 0.0 + 3.5). Las ventas canceladas no se incluyen en este cálculo.",
+        "fuentes": [
+          {
+            "documento": "ventas.csv",
+            "registro_id": "VEN001",
+            "fragmento": "{\"envio_eur\": 3.5, \"estado\": \"Completada\", \"fecha_venta\": \"2026-10-11\", \"precio_acordado_eur\": 17.0, \"prenda_id\": \"PRE003\", \"total_eur\": 20.5, \"venta_id\": \"VEN001\"}"
+          },
+          {
+            "documento": "ventas.csv",
+            "registro_id": "VEN002",
+            "fragmento": "{\"envio_eur\": 0.0, \"estado\": \"Completada\", \"fecha_venta\": \"2026-10-12\", \"precio_acordado_eur\": 10.0, \"prenda_id\": \"PRE006\", \"total_eur\": 10.0, \"venta_id\": \"VEN002\"}"
+          },
+          {
+            "documento": "ventas.csv",
+            "registro_id": "VEN003",
+            "fragmento": "{\"envio_eur\": 3.5, \"estado\": \"Completada\", \"fecha_venta\": \"2026-10-14\", \"precio_acordado_eur\": 22.0, \"prenda_id\": \"PRE012\", \"total_eur\": 25.5, \"venta_id\": \"VEN003\"}"
+          },
+          {
+            "documento": "ventas.csv",
+            "registro_id": "VEN004",
+            "fragmento": "{\"envio_eur\": 4.0, \"estado\": \"Cancelada\", \"fecha_venta\": \"2026-10-15\", \"precio_acordado_eur\": 30.0, \"prenda_id\": \"PRE009\", \"total_eur\": 34.0, \"venta_id\": \"VEN004\"}"
+          }
+        ],
+        "datos": {
+          "numero_ventas": 3,
+          "precio_acordado_eur": 49,
+          "envio_eur": 7,
+          "total_eur": 56,
+          "ventas_completadas": [
+            {
+              "venta_id": "VEN001",
+              "prenda_id": "PRE003",
+              "fecha_venta": "2026-10-11",
+              "estado": "Completada",
+              "precio_acordado_eur": 17,
+              "envio_eur": 3.5,
+              "total_eur": 20.5
+            },
+            {
+              "venta_id": "VEN002",
+              "prenda_id": "PRE006",
+              "fecha_venta": "2026-10-12",
+              "estado": "Completada",
+              "precio_acordado_eur": 10,
+              "envio_eur": 0,
+              "total_eur": 10
+            },
+            {
+              "venta_id": "VEN003",
+              "prenda_id": "PRE012",
+              "fecha_venta": "2026-10-14",
+              "estado": "Completada",
+              "precio_acordado_eur": 22,
+              "envio_eur": 3.5,
+              "total_eur": 25.5
+            }
+          ],
+          "ventas_excluidas": [
+            {
+              "venta_id": "VEN004",
+              "prenda_id": "PRE009",
+              "fecha_venta": "2026-10-15",
+              "estado": "Cancelada",
+              "precio_acordado_eur": 30,
+              "envio_eur": 4,
+              "total_eur": 34
+            }
+          ]
+        }
+      },
+      "captura": {
+        "archivo": "capturas/02-chat-ventas.png",
+        "ancho": 1366,
+        "alto": 1312,
+        "sha256": "13573abd34d59050374fddd40ba806d4c35de9d72d8f3a940704309ea31e8bdb"
+      },
+      "verificacion": {
+        "resultado": "Coinciden 3 ventas completadas: 49,00 € de prendas + 7,00 € de envío = 56,00 €. VEN004 queda excluida.",
+        "fuentes": [
+          {
+            "documento": "ventas.csv",
+            "registro_id": "VEN001",
+            "coincide": true
+          },
+          {
+            "documento": "ventas.csv",
+            "registro_id": "VEN002",
+            "coincide": true
+          },
+          {
+            "documento": "ventas.csv",
+            "registro_id": "VEN003",
+            "coincide": true
+          },
+          {
+            "documento": "ventas.csv",
+            "registro_id": "VEN004",
+            "coincide": true
+          }
+        ],
+        "coincide_con_api": true
+      }
+    },
+    {
+      "pregunta": "Obtener las prendas de cada vendedor.",
+      "respuesta": {
+        "estado": "ok",
+        "respuesta": "Las prendas agrupadas por vendedor son las siguientes:\n\n1. Vendedora ana.rewear (V001):\n- Camiseta básica de algodón, camiseta, color blanco, talla M, marca Zara, precio 6€ (Disponible)\n- Chaqueta vaquera, chaqueta, color azul, talla L, marca H&M, precio 15€ (Reservada)\n- Americana de lino, chaqueta, color arena, talla 38, marca Mango, precio 24€ (Disponible)\n\n2. Vendedor denim.luis (V002):\n- Vaqueros rectos, pantalones, color azul, talla 38, marca Levi’s, precio 22€ (Disponible)\n- Bufanda de invierno, complemento, color gris, talla única, sin marca, precio 5€ (Disponible)\n\n3. Vendedora marta.circular (V003):\n- Vestido de flores, vestido, color verde, talla S, marca Mango, precio 18€ (Vendida)\n- Falda midi negra, falda, color negro, talla 38, marca Zara, precio 14€ (Disponible)\n- Vestido de lino, vestido, color crudo, talla M, marca Zara, precio 25€ (Vendida)\n\n4. Vendedor pablo.vintage (V004):\n- Zapatillas deportivas, calzado, color blanco, talla EU 38, marca Adidas, precio 25€ (Disponible)\n- Camiseta estampada, camiseta, color rojo, talla S, marca H&M, precio 3€ (Retirada)\n\n5. Vendedora elena.armario (V005):\n- Jersey de punto, jersey, color beige, talla M, marca Mango, precio 12€ (Vendida)\n- Abrigo largo, abrigo, color marrón, talla L, marca Mango, precio 35€ (Disponible)\n\nSe incluyen todas las prendas independientemente de su estado (disponible, vendida, reservada, retirada).",
+        "fuentes": [
+          {
+            "documento": "vendedores.csv",
+            "registro_id": "V001",
+            "fragmento": "{\"alias\": \"ana.rewear\", \"vendedor_id\": \"V001\"}"
+          },
+          {
+            "documento": "vendedores.csv",
+            "registro_id": "V002",
+            "fragmento": "{\"alias\": \"denim.luis\", \"vendedor_id\": \"V002\"}"
+          },
+          {
+            "documento": "vendedores.csv",
+            "registro_id": "V003",
+            "fragmento": "{\"alias\": \"marta.circular\", \"vendedor_id\": \"V003\"}"
+          },
+          {
+            "documento": "vendedores.csv",
+            "registro_id": "V004",
+            "fragmento": "{\"alias\": \"pablo.vintage\", \"vendedor_id\": \"V004\"}"
+          },
+          {
+            "documento": "vendedores.csv",
+            "registro_id": "V005",
+            "fragmento": "{\"alias\": \"elena.armario\", \"vendedor_id\": \"V005\"}"
+          },
+          {
+            "documento": "prendas.csv",
+            "registro_id": "PRE001",
+            "fragmento": "{\"categoria\": \"Camisetas\", \"color\": \"Blanco\", \"conservacion\": \"Muy bueno\", \"disponibilidad\": \"Disponible\", \"fecha_alta\": \"2026-10-01\", \"marca\": \"Zara\", \"precio_publicado_eur\": 6.0, \"prenda_id\": \"PRE001\", \"talla\": \"M\", \"titulo\": \"Camiseta básica de algodón\", \"vendedor_id\": \"V001\"}"
+          },
+          {
+            "documento": "prendas.csv",
+            "registro_id": "PRE002",
+            "fragmento": "{\"categoria\": \"Pantalones\", \"color\": \"Azul\", \"conservacion\": \"Bueno\", \"disponibilidad\": \"Disponible\", \"fecha_alta\": \"2026-10-02\", \"marca\": \"Levi’s\", \"precio_publicado_eur\": 22.0, \"prenda_id\": \"PRE002\", \"talla\": \"38\", \"titulo\": \"Vaqueros rectos\", \"vendedor_id\": \"V002\"}"
+          },
+          {
+            "documento": "prendas.csv",
+            "registro_id": "PRE003",
+            "fragmento": "{\"categoria\": \"Vestidos\", \"color\": \"Verde\", \"conservacion\": \"Muy bueno\", \"disponibilidad\": \"Vendida\", \"fecha_alta\": \"2026-10-03\", \"marca\": \"Mango\", \"precio_publicado_eur\": 18.0, \"prenda_id\": \"PRE003\", \"talla\": \"S\", \"titulo\": \"Vestido de flores\", \"vendedor_id\": \"V003\"}"
+          },
+          {
+            "documento": "prendas.csv",
+            "registro_id": "PRE004",
+            "fragmento": "{\"categoria\": \"Chaquetas\", \"color\": \"Azul\", \"conservacion\": \"Bueno\", \"disponibilidad\": \"Reservada\", \"fecha_alta\": \"2026-10-04\", \"marca\": \"H&M\", \"precio_publicado_eur\": 15.0, \"prenda_id\": \"PRE004\", \"talla\": \"L\", \"titulo\": \"Chaqueta vaquera\", \"vendedor_id\": \"V001\"}"
+          },
+          {
+            "documento": "prendas.csv",
+            "registro_id": "PRE005",
+            "fragmento": "{\"categoria\": \"Calzado\", \"color\": \"Blanco\", \"conservacion\": \"Bueno\", \"disponibilidad\": \"Disponible\", \"fecha_alta\": \"2026-10-05\", \"marca\": \"Adidas\", \"precio_publicado_eur\": 25.0, \"prenda_id\": \"PRE005\", \"talla\": \"EU 38\", \"titulo\": \"Zapatillas deportivas\", \"vendedor_id\": \"V004\"}"
+          },
+          {
+            "documento": "prendas.csv",
+            "registro_id": "PRE006",
+            "fragmento": "{\"categoria\": \"Jerséis\", \"color\": \"Beige\", \"conservacion\": \"Muy bueno\", \"disponibilidad\": \"Vendida\", \"fecha_alta\": \"2026-10-06\", \"marca\": \"Mango\", \"precio_publicado_eur\": 12.0, \"prenda_id\": \"PRE006\", \"talla\": \"M\", \"titulo\": \"Jersey de punto\", \"vendedor_id\": \"V005\"}"
+          },
+          {
+            "documento": "prendas.csv",
+            "registro_id": "PRE007",
+            "fragmento": "{\"categoria\": \"Faldas\", \"color\": \"Negro\", \"conservacion\": \"Como nuevo\", \"disponibilidad\": \"Disponible\", \"fecha_alta\": \"2026-10-07\", \"marca\": \"Zara\", \"precio_publicado_eur\": 14.0, \"prenda_id\": \"PRE007\", \"talla\": \"38\", \"titulo\": \"Falda midi negra\", \"vendedor_id\": \"V003\"}"
+          },
+          {
+            "documento": "prendas.csv",
+            "registro_id": "PRE008",
+            "fragmento": "{\"categoria\": \"Complementos\", \"color\": \"Gris\", \"conservacion\": \"Bueno\", \"disponibilidad\": \"Disponible\", \"fecha_alta\": \"2026-10-08\", \"marca\": \"Sin marca\", \"precio_publicado_eur\": 5.0, \"prenda_id\": \"PRE008\", \"talla\": \"Única\", \"titulo\": \"Bufanda de invierno\", \"vendedor_id\": \"V002\"}"
+          },
+          {
+            "documento": "prendas.csv",
+            "registro_id": "PRE009",
+            "fragmento": "{\"categoria\": \"Abrigos\", \"color\": \"Marrón\", \"conservacion\": \"Muy bueno\", \"disponibilidad\": \"Disponible\", \"fecha_alta\": \"2026-10-09\", \"marca\": \"Mango\", \"precio_publicado_eur\": 35.0, \"prenda_id\": \"PRE009\", \"talla\": \"L\", \"titulo\": \"Abrigo largo\", \"vendedor_id\": \"V005\"}"
+          },
+          {
+            "documento": "prendas.csv",
+            "registro_id": "PRE010",
+            "fragmento": "{\"categoria\": \"Camisetas\", \"color\": \"Rojo\", \"conservacion\": \"Aceptable\", \"disponibilidad\": \"Retirada\", \"fecha_alta\": \"2026-10-10\", \"marca\": \"H&M\", \"precio_publicado_eur\": 3.0, \"prenda_id\": \"PRE010\", \"talla\": \"S\", \"titulo\": \"Camiseta estampada\", \"vendedor_id\": \"V004\"}"
+          },
+          {
+            "documento": "prendas.csv",
+            "registro_id": "PRE011",
+            "fragmento": "{\"categoria\": \"Chaquetas\", \"color\": \"Arena\", \"conservacion\": \"Muy bueno\", \"disponibilidad\": \"Disponible\", \"fecha_alta\": \"2026-10-10\", \"marca\": \"Mango\", \"precio_publicado_eur\": 24.0, \"prenda_id\": \"PRE011\", \"talla\": \"38\", \"titulo\": \"Americana de lino\", \"vendedor_id\": \"V001\"}"
+          },
+          {
+            "documento": "prendas.csv",
+            "registro_id": "PRE012",
+            "fragmento": "{\"categoria\": \"Vestidos\", \"color\": \"Crudo\", \"conservacion\": \"Como nuevo\", \"disponibilidad\": \"Vendida\", \"fecha_alta\": \"2026-10-10\", \"marca\": \"Zara\", \"precio_publicado_eur\": 25.0, \"prenda_id\": \"PRE012\", \"talla\": \"M\", \"titulo\": \"Vestido de lino\", \"vendedor_id\": \"V003\"}"
+          }
+        ],
+        "datos": {
+          "vendedores": [
+            {
+              "vendedor_id": "V001",
+              "alias": "ana.rewear",
+              "prendas": [
+                {
+                  "prenda_id": "PRE001",
+                  "titulo": "Camiseta básica de algodón",
+                  "categoria": "Camisetas",
+                  "marca": "Zara",
+                  "talla": "M",
+                  "color": "Blanco",
+                  "conservacion": "Muy bueno",
+                  "precio_publicado_eur": 6,
+                  "disponibilidad": "Disponible",
+                  "vendedor_id": "V001",
+                  "fecha_alta": "2026-10-01"
+                },
+                {
+                  "prenda_id": "PRE004",
+                  "titulo": "Chaqueta vaquera",
+                  "categoria": "Chaquetas",
+                  "marca": "H&M",
+                  "talla": "L",
+                  "color": "Azul",
+                  "conservacion": "Bueno",
+                  "precio_publicado_eur": 15,
+                  "disponibilidad": "Reservada",
+                  "vendedor_id": "V001",
+                  "fecha_alta": "2026-10-04"
+                },
+                {
+                  "prenda_id": "PRE011",
+                  "titulo": "Americana de lino",
+                  "categoria": "Chaquetas",
+                  "marca": "Mango",
+                  "talla": "38",
+                  "color": "Arena",
+                  "conservacion": "Muy bueno",
+                  "precio_publicado_eur": 24,
+                  "disponibilidad": "Disponible",
+                  "vendedor_id": "V001",
+                  "fecha_alta": "2026-10-10"
+                }
+              ]
+            },
+            {
+              "vendedor_id": "V002",
+              "alias": "denim.luis",
+              "prendas": [
+                {
+                  "prenda_id": "PRE002",
+                  "titulo": "Vaqueros rectos",
+                  "categoria": "Pantalones",
+                  "marca": "Levi’s",
+                  "talla": "38",
+                  "color": "Azul",
+                  "conservacion": "Bueno",
+                  "precio_publicado_eur": 22,
+                  "disponibilidad": "Disponible",
+                  "vendedor_id": "V002",
+                  "fecha_alta": "2026-10-02"
+                },
+                {
+                  "prenda_id": "PRE008",
+                  "titulo": "Bufanda de invierno",
+                  "categoria": "Complementos",
+                  "marca": "Sin marca",
+                  "talla": "Única",
+                  "color": "Gris",
+                  "conservacion": "Bueno",
+                  "precio_publicado_eur": 5,
+                  "disponibilidad": "Disponible",
+                  "vendedor_id": "V002",
+                  "fecha_alta": "2026-10-08"
+                }
+              ]
+            },
+            {
+              "vendedor_id": "V003",
+              "alias": "marta.circular",
+              "prendas": [
+                {
+                  "prenda_id": "PRE003",
+                  "titulo": "Vestido de flores",
+                  "categoria": "Vestidos",
+                  "marca": "Mango",
+                  "talla": "S",
+                  "color": "Verde",
+                  "conservacion": "Muy bueno",
+                  "precio_publicado_eur": 18,
+                  "disponibilidad": "Vendida",
+                  "vendedor_id": "V003",
+                  "fecha_alta": "2026-10-03"
+                },
+                {
+                  "prenda_id": "PRE007",
+                  "titulo": "Falda midi negra",
+                  "categoria": "Faldas",
+                  "marca": "Zara",
+                  "talla": "38",
+                  "color": "Negro",
+                  "conservacion": "Como nuevo",
+                  "precio_publicado_eur": 14,
+                  "disponibilidad": "Disponible",
+                  "vendedor_id": "V003",
+                  "fecha_alta": "2026-10-07"
+                },
+                {
+                  "prenda_id": "PRE012",
+                  "titulo": "Vestido de lino",
+                  "categoria": "Vestidos",
+                  "marca": "Zara",
+                  "talla": "M",
+                  "color": "Crudo",
+                  "conservacion": "Como nuevo",
+                  "precio_publicado_eur": 25,
+                  "disponibilidad": "Vendida",
+                  "vendedor_id": "V003",
+                  "fecha_alta": "2026-10-10"
+                }
+              ]
+            },
+            {
+              "vendedor_id": "V004",
+              "alias": "pablo.vintage",
+              "prendas": [
+                {
+                  "prenda_id": "PRE005",
+                  "titulo": "Zapatillas deportivas",
+                  "categoria": "Calzado",
+                  "marca": "Adidas",
+                  "talla": "EU 38",
+                  "color": "Blanco",
+                  "conservacion": "Bueno",
+                  "precio_publicado_eur": 25,
+                  "disponibilidad": "Disponible",
+                  "vendedor_id": "V004",
+                  "fecha_alta": "2026-10-05"
+                },
+                {
+                  "prenda_id": "PRE010",
+                  "titulo": "Camiseta estampada",
+                  "categoria": "Camisetas",
+                  "marca": "H&M",
+                  "talla": "S",
+                  "color": "Rojo",
+                  "conservacion": "Aceptable",
+                  "precio_publicado_eur": 3,
+                  "disponibilidad": "Retirada",
+                  "vendedor_id": "V004",
+                  "fecha_alta": "2026-10-10"
+                }
+              ]
+            },
+            {
+              "vendedor_id": "V005",
+              "alias": "elena.armario",
+              "prendas": [
+                {
+                  "prenda_id": "PRE006",
+                  "titulo": "Jersey de punto",
+                  "categoria": "Jerséis",
+                  "marca": "Mango",
+                  "talla": "M",
+                  "color": "Beige",
+                  "conservacion": "Muy bueno",
+                  "precio_publicado_eur": 12,
+                  "disponibilidad": "Vendida",
+                  "vendedor_id": "V005",
+                  "fecha_alta": "2026-10-06"
+                },
+                {
+                  "prenda_id": "PRE009",
+                  "titulo": "Abrigo largo",
+                  "categoria": "Abrigos",
+                  "marca": "Mango",
+                  "talla": "L",
+                  "color": "Marrón",
+                  "conservacion": "Muy bueno",
+                  "precio_publicado_eur": 35,
+                  "disponibilidad": "Disponible",
+                  "vendedor_id": "V005",
+                  "fecha_alta": "2026-10-09"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "captura": {
+        "archivo": "capturas/03-chat-vendedores.png",
+        "ancho": 1366,
+        "alto": 2662,
+        "sha256": "be03aa0df465631bf2e4cb3d438a7b4ad785ab0dd91ab4e843290430e028fa1c"
+      },
+      "verificacion": {
+        "resultado": "Coinciden los 5 vendedores y las 12 prendas, incluidos todos sus estados.",
+        "fuentes": [
+          {
+            "documento": "vendedores.csv",
+            "registro_id": "V001",
+            "coincide": true
+          },
+          {
+            "documento": "vendedores.csv",
+            "registro_id": "V002",
+            "coincide": true
+          },
+          {
+            "documento": "vendedores.csv",
+            "registro_id": "V003",
+            "coincide": true
+          },
+          {
+            "documento": "vendedores.csv",
+            "registro_id": "V004",
+            "coincide": true
+          },
+          {
+            "documento": "vendedores.csv",
+            "registro_id": "V005",
+            "coincide": true
+          },
+          {
+            "documento": "prendas.csv",
+            "registro_id": "PRE001",
+            "coincide": true
+          },
+          {
+            "documento": "prendas.csv",
+            "registro_id": "PRE002",
+            "coincide": true
+          },
+          {
+            "documento": "prendas.csv",
+            "registro_id": "PRE003",
+            "coincide": true
+          },
+          {
+            "documento": "prendas.csv",
+            "registro_id": "PRE004",
+            "coincide": true
+          },
+          {
+            "documento": "prendas.csv",
+            "registro_id": "PRE005",
+            "coincide": true
+          },
+          {
+            "documento": "prendas.csv",
+            "registro_id": "PRE006",
+            "coincide": true
+          },
+          {
+            "documento": "prendas.csv",
+            "registro_id": "PRE007",
+            "coincide": true
+          },
+          {
+            "documento": "prendas.csv",
+            "registro_id": "PRE008",
+            "coincide": true
+          },
+          {
+            "documento": "prendas.csv",
+            "registro_id": "PRE009",
+            "coincide": true
+          },
+          {
+            "documento": "prendas.csv",
+            "registro_id": "PRE010",
+            "coincide": true
+          },
+          {
+            "documento": "prendas.csv",
+            "registro_id": "PRE011",
+            "coincide": true
+          },
+          {
+            "documento": "prendas.csv",
+            "registro_id": "PRE012",
+            "coincide": true
+          }
+        ],
+        "coincide_con_api": true
+      }
+    },
+    {
+      "pregunta": "Datos personales de los vendedores.",
+      "respuesta": {
+        "estado": "no_consta",
+        "respuesta": "No constan datos personales de contacto o identidad en los registros disponibles. No hay nombres reales, correos, teléfonos ni direcciones; solo identificador y alias de los vendedores.",
+        "fuentes": [
+          {
+            "documento": "prendas.csv",
+            "registro_id": "cabecera",
+            "fragmento": "prenda_id, titulo, categoria, marca, talla, color, conservacion, precio_publicado_eur, disponibilidad, vendedor_id, fecha_alta"
+          },
+          {
+            "documento": "ventas.csv",
+            "registro_id": "cabecera",
+            "fragmento": "venta_id, prenda_id, fecha_venta, estado, precio_acordado_eur, envio_eur, total_eur"
+          },
+          {
+            "documento": "vendedores.csv",
+            "registro_id": "cabecera",
+            "fragmento": "vendedor_id, alias"
+          }
+        ],
+        "datos": {}
+      },
+      "captura": {
+        "archivo": "capturas/04-chat-no-consta.png",
+        "ancho": 1366,
+        "alto": 1281,
+        "sha256": "ff0203c9a8f58d1b5d435c0c35c632bb1c11cf5a8cbae5cad9edb0589501d974"
+      },
+      "verificacion": {
+        "resultado": "La ausencia de identidad y contacto coincide con las cabeceras completas de los tres documentos.",
+        "fuentes": [
+          {
+            "documento": "prendas.csv",
+            "registro_id": "cabecera",
+            "coincide": true
+          },
+          {
+            "documento": "ventas.csv",
+            "registro_id": "cabecera",
+            "coincide": true
+          },
+          {
+            "documento": "vendedores.csv",
+            "registro_id": "cabecera",
+            "coincide": true
+          }
+        ],
+        "coincide_con_api": true
+      }
+    }
+  ],
+  "documentos": {
+    "documentos": [
+      {
+        "nombre": "prendas.csv",
+        "tipo": "prendas",
+        "descripcion": "Catálogo",
+        "numero_registros": 12,
+        "campos": [
+          "prenda_id",
+          "titulo",
+          "categoria",
+          "marca",
+          "talla",
+          "color",
+          "conservacion",
+          "precio_publicado_eur",
+          "disponibilidad",
+          "vendedor_id",
+          "fecha_alta"
+        ],
+        "registros": [
+          {
+            "prenda_id": "PRE001",
+            "titulo": "Camiseta básica de algodón",
+            "categoria": "Camisetas",
+            "marca": "Zara",
+            "talla": "M",
+            "color": "Blanco",
+            "conservacion": "Muy bueno",
+            "precio_publicado_eur": 6,
+            "disponibilidad": "Disponible",
+            "vendedor_id": "V001",
+            "fecha_alta": "2026-10-01"
+          },
+          {
+            "prenda_id": "PRE002",
+            "titulo": "Vaqueros rectos",
+            "categoria": "Pantalones",
+            "marca": "Levi’s",
+            "talla": "38",
+            "color": "Azul",
+            "conservacion": "Bueno",
+            "precio_publicado_eur": 22,
+            "disponibilidad": "Disponible",
+            "vendedor_id": "V002",
+            "fecha_alta": "2026-10-02"
+          },
+          {
+            "prenda_id": "PRE003",
+            "titulo": "Vestido de flores",
+            "categoria": "Vestidos",
+            "marca": "Mango",
+            "talla": "S",
+            "color": "Verde",
+            "conservacion": "Muy bueno",
+            "precio_publicado_eur": 18,
+            "disponibilidad": "Vendida",
+            "vendedor_id": "V003",
+            "fecha_alta": "2026-10-03"
+          },
+          {
+            "prenda_id": "PRE004",
+            "titulo": "Chaqueta vaquera",
+            "categoria": "Chaquetas",
+            "marca": "H&M",
+            "talla": "L",
+            "color": "Azul",
+            "conservacion": "Bueno",
+            "precio_publicado_eur": 15,
+            "disponibilidad": "Reservada",
+            "vendedor_id": "V001",
+            "fecha_alta": "2026-10-04"
+          },
+          {
+            "prenda_id": "PRE005",
+            "titulo": "Zapatillas deportivas",
+            "categoria": "Calzado",
+            "marca": "Adidas",
+            "talla": "EU 38",
+            "color": "Blanco",
+            "conservacion": "Bueno",
+            "precio_publicado_eur": 25,
+            "disponibilidad": "Disponible",
+            "vendedor_id": "V004",
+            "fecha_alta": "2026-10-05"
+          },
+          {
+            "prenda_id": "PRE006",
+            "titulo": "Jersey de punto",
+            "categoria": "Jerséis",
+            "marca": "Mango",
+            "talla": "M",
+            "color": "Beige",
+            "conservacion": "Muy bueno",
+            "precio_publicado_eur": 12,
+            "disponibilidad": "Vendida",
+            "vendedor_id": "V005",
+            "fecha_alta": "2026-10-06"
+          },
+          {
+            "prenda_id": "PRE007",
+            "titulo": "Falda midi negra",
+            "categoria": "Faldas",
+            "marca": "Zara",
+            "talla": "38",
+            "color": "Negro",
+            "conservacion": "Como nuevo",
+            "precio_publicado_eur": 14,
+            "disponibilidad": "Disponible",
+            "vendedor_id": "V003",
+            "fecha_alta": "2026-10-07"
+          },
+          {
+            "prenda_id": "PRE008",
+            "titulo": "Bufanda de invierno",
+            "categoria": "Complementos",
+            "marca": "Sin marca",
+            "talla": "Única",
+            "color": "Gris",
+            "conservacion": "Bueno",
+            "precio_publicado_eur": 5,
+            "disponibilidad": "Disponible",
+            "vendedor_id": "V002",
+            "fecha_alta": "2026-10-08"
+          },
+          {
+            "prenda_id": "PRE009",
+            "titulo": "Abrigo largo",
+            "categoria": "Abrigos",
+            "marca": "Mango",
+            "talla": "L",
+            "color": "Marrón",
+            "conservacion": "Muy bueno",
+            "precio_publicado_eur": 35,
+            "disponibilidad": "Disponible",
+            "vendedor_id": "V005",
+            "fecha_alta": "2026-10-09"
+          },
+          {
+            "prenda_id": "PRE010",
+            "titulo": "Camiseta estampada",
+            "categoria": "Camisetas",
+            "marca": "H&M",
+            "talla": "S",
+            "color": "Rojo",
+            "conservacion": "Aceptable",
+            "precio_publicado_eur": 3,
+            "disponibilidad": "Retirada",
+            "vendedor_id": "V004",
+            "fecha_alta": "2026-10-10"
+          },
+          {
+            "prenda_id": "PRE011",
+            "titulo": "Americana de lino",
+            "categoria": "Chaquetas",
+            "marca": "Mango",
+            "talla": "38",
+            "color": "Arena",
+            "conservacion": "Muy bueno",
+            "precio_publicado_eur": 24,
+            "disponibilidad": "Disponible",
+            "vendedor_id": "V001",
+            "fecha_alta": "2026-10-10"
+          },
+          {
+            "prenda_id": "PRE012",
+            "titulo": "Vestido de lino",
+            "categoria": "Vestidos",
+            "marca": "Zara",
+            "talla": "M",
+            "color": "Crudo",
+            "conservacion": "Como nuevo",
+            "precio_publicado_eur": 25,
+            "disponibilidad": "Vendida",
+            "vendedor_id": "V003",
+            "fecha_alta": "2026-10-10"
+          }
+        ]
+      },
+      {
+        "nombre": "ventas.csv",
+        "tipo": "ventas",
+        "descripcion": "Operaciones",
+        "numero_registros": 4,
+        "campos": [
+          "venta_id",
+          "prenda_id",
+          "fecha_venta",
+          "estado",
+          "precio_acordado_eur",
+          "envio_eur",
+          "total_eur"
+        ],
+        "registros": [
+          {
+            "venta_id": "VEN001",
+            "prenda_id": "PRE003",
+            "fecha_venta": "2026-10-11",
+            "estado": "Completada",
+            "precio_acordado_eur": 17,
+            "envio_eur": 3.5,
+            "total_eur": 20.5
+          },
+          {
+            "venta_id": "VEN002",
+            "prenda_id": "PRE006",
+            "fecha_venta": "2026-10-12",
+            "estado": "Completada",
+            "precio_acordado_eur": 10,
+            "envio_eur": 0,
+            "total_eur": 10
+          },
+          {
+            "venta_id": "VEN003",
+            "prenda_id": "PRE012",
+            "fecha_venta": "2026-10-14",
+            "estado": "Completada",
+            "precio_acordado_eur": 22,
+            "envio_eur": 3.5,
+            "total_eur": 25.5
+          },
+          {
+            "venta_id": "VEN004",
+            "prenda_id": "PRE009",
+            "fecha_venta": "2026-10-15",
+            "estado": "Cancelada",
+            "precio_acordado_eur": 30,
+            "envio_eur": 4,
+            "total_eur": 34
+          }
+        ]
+      },
+      {
+        "nombre": "vendedores.csv",
+        "tipo": "vendedores",
+        "descripcion": "Alias públicos ficticios",
+        "numero_registros": 5,
+        "campos": [
+          "vendedor_id",
+          "alias"
+        ],
+        "registros": [
+          {
+            "vendedor_id": "V001",
+            "alias": "ana.rewear"
+          },
+          {
+            "vendedor_id": "V002",
+            "alias": "denim.luis"
+          },
+          {
+            "vendedor_id": "V003",
+            "alias": "marta.circular"
+          },
+          {
+            "vendedor_id": "V004",
+            "alias": "pablo.vintage"
+          },
+          {
+            "vendedor_id": "V005",
+            "alias": "elena.armario"
+          }
+        ]
+      }
+    ],
+    "total_documentos": 3,
+    "total_registros": 21,
+    "datos_ficticios": true,
+    "fecha_corte": "2026-10-16"
+  },
+  "captura_documentos": {
+    "archivo": "capturas/05-documentos.png",
+    "ancho": 1366,
+    "alto": 2209,
+    "sha256": "1b196cd7f7a0f281c343b57b5af3a00208967814a21d47f79d38907135b0dbbd"
+  }
+}

@@ -1,0 +1,5 @@
+venta_id,prenda_id,fecha_venta,estado,precio_acordado_eur,envio_eur,total_eur
+VEN001,PRE003,2026-10-11,Completada,17,3.5,20.5
+VEN002,PRE006,2026-10-12,Completada,10,0,10
+VEN003,PRE012,2026-10-14,Completada,22,3.5,25.5
+VEN004,PRE009,2026-10-15,Cancelada,30,4,34

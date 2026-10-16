@@ -1,0 +1,13 @@
+prenda_id,titulo,categoria,marca,talla,color,conservacion,precio_publicado_eur,disponibilidad,vendedor_id,fecha_alta
+PRE001,Camiseta básica de algodón,Camisetas,Zara,M,Blanco,Muy bueno,6,Disponible,V001,2026-10-01
+PRE002,Vaqueros rectos,Pantalones,Levi’s,38,Azul,Bueno,22,Disponible,V002,2026-10-02
+PRE003,Vestido de flores,Vestidos,Mango,S,Verde,Muy bueno,18,Vendida,V003,2026-10-03
+PRE004,Chaqueta vaquera,Chaquetas,H&M,L,Azul,Bueno,15,Reservada,V001,2026-10-04
+PRE005,Zapatillas deportivas,Calzado,Adidas,EU 38,Blanco,Bueno,25,Disponible,V004,2026-10-05
+PRE006,Jersey de punto,Jerséis,Mango,M,Beige,Muy bueno,12,Vendida,V005,2026-10-06
+PRE007,Falda midi negra,Faldas,Zara,38,Negro,Como nuevo,14,Disponible,V003,2026-10-07
+PRE008,Bufanda de invierno,Complementos,Sin marca,Única,Gris,Bueno,5,Disponible,V002,2026-10-08
+PRE009,Abrigo largo,Abrigos,Mango,L,Marrón,Muy bueno,35,Disponible,V005,2026-10-09
+PRE010,Camiseta estampada,Camisetas,H&M,S,Rojo,Aceptable,3,Retirada,V004,2026-10-10
+PRE011,Americana de lino,Chaquetas,Mango,38,Arena,Muy bueno,24,Disponible,V001,2026-10-10
+PRE012,Vestido de lino,Vestidos,Zara,M,Crudo,Como nuevo,25,Vendida,V003,2026-10-10

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+    <symbol id="i-loop" viewBox="0 0 36 36"><path d="M10 23c-5 0-8-3-8-7s3-7 7-7c6 0 10 15 17 15 5 0 8-3 8-7s-3-7-7-7c-7 0-11 15-17 15" fill="none" stroke="currentColor" stroke-width="3.7" stroke-linecap="round"/><path d="m25 5 3 5-5 3M11 30l-3-5 5-3" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-chat" viewBox="0 0 24 24"><path d="M20 11.5a8 8 0 0 1-8 8 9 9 0 0 1-3.5-.7L4 20l1.2-4.5A8 8 0 1 1 20 11.5Z"/><path d="M8 10h8m-8 4h5"/></symbol>
+    <symbol id="i-grid" viewBox="0 0 24 24"><rect x="4" y="4" width="6" height="6" rx="1"/><rect x="14" y="4" width="6" height="6" rx="1"/><rect x="4" y="14" width="6" height="6" rx="1"/><rect x="14" y="14" width="6" height="6" rx="1"/></symbol>
+    <symbol id="i-chart" viewBox="0 0 24 24"><path d="M4 4v16h16M8 16v-4m5 4V8m5 8V5"/></symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24"><path d="m12 3 8 3v6c0 5-8 9-8 9s-8-4-8-9V6Z"/><path d="m8 12 3 3 5-6"/></symbol>
+    <symbol id="i-star" viewBox="0 0 24 24"><path d="m12 3 2.5 6.5L21 12l-6.5 2.5L12 21l-2.5-6.5L3 12l6.5-2.5Z"/><path d="m20 2 .5 1.5L22 4l-1.5.5L20 6l-.5-1.5L18 4l1.5-.5Z"/></symbol>
+    <symbol id="i-doc" viewBox="0 0 24 24"><path d="M14 3H6a1 1 0 0 0-1 1v16a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V8Z"/><path d="M14 3v5h5M8 12h8m-8 4h6"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14m-6-6 6 6-6 6"/></symbol>
+    <symbol id="i-send" viewBox="0 0 24 24"><path d="M12 19V5m-6 6 6-6 6 6"/></symbol>
+    <symbol id="i-search" viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4.5 4.5"/></symbol>
+    <symbol id="i-link" viewBox="0 0 24 24"><path d="m9 15 6-6m-8 5-2 2a4 4 0 0 0 6 6l3-3m-4-9 3-3a4 4 0 0 1 6 6l-2 2" transform="translate(0 -2)"/></symbol>
+    <symbol id="i-download" viewBox="0 0 24 24"><path d="M12 3v12m-5-5 5 5 5-5M4 16v5h16v-5"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12 4 4 10-10"/></symbol>
+    <symbol id="i-minus" viewBox="0 0 24 24"><path d="M5 12h14"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24"><path d="m6 6 12 12M6 18 18 6"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8"/><path d="M12 7v5l3 2"/></symbol>
+    <symbol id="art-jeans" viewBox="0 0 100 130"><path d="M28 8h44l4 109-23 2-4-69-4 69-22-2Z" fill="currentColor"/><path d="M28 15h44M50 15v31m-18-29c0 13-2 16-7 18m42-18c0 13 2 16 7 18M49 49l-3 63m6-63 4 63" fill="none" stroke="#607789" stroke-width="1.3"/><path d="M26 111h20m8 0h21" stroke="#aabbc5" stroke-width="2"/><path d="M36 8v9m27-9v9" stroke="#5e7484" stroke-width="3"/><circle cx="51" cy="12" r="1.4" fill="#d3c8a6"/></symbol>
+    <symbol id="art-skirt" viewBox="0 0 100 130"><path d="M30 12h40l19 102q-39 11-78 0Z" fill="currentColor"/><path d="M29 19h42M35 25l-9 88m16-88-3 92m12-92v93m9-93 5 91m1-91 10 88" fill="none" stroke="#646b62" stroke-width="1.1"/><path d="M12 111q39 11 76 0" stroke="#303c35" stroke-width="2" fill="none"/></symbol>
+    <symbol id="art-blazer" viewBox="0 0 100 130"><path d="m31 15 12-5h14l12 5 13 10 13 69-15 4-12-44 5 62H27l5-62-12 44-15-4 13-69Z" fill="currentColor"/><path d="m43 10 7 20 7-20m-14 0-9 15 10 10-7 5 13 24 13-24-7-5 10-10-9-15M50 63v53M29 79h14m14 0h14" stroke="#947b60" stroke-width="1.2" fill="none"/><path d="m43 10 7 20 7-20" fill="#f1eee8"/><circle cx="54" cy="73" r="1.7" fill="#715c48"/><circle cx="54" cy="86" r="1.7" fill="#715c48"/></symbol>
+  </svg>

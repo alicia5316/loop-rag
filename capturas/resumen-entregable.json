@@ -1,0 +1,21 @@
+{
+  "html": "entregable.html",
+  "pdf": "entregable.pdf",
+  "paginas": 9,
+  "formato": "A4",
+  "capturas": 5,
+  "sin_recursos_externos": true,
+  "sin_desbordamiento": true,
+  "navegador": "msedge",
+  "pdf_sha256": "d0493a6bc288f3e8363c8228868925b72d6c56309e7f6dad163e9f3ecdea8b0c",
+  "paginas_confirmadas_con_pymupdf": 9,
+  "todas_a4": true,
+  "capturas_completas_en_paginas": [
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "sin_paginas_vacias": true
+}

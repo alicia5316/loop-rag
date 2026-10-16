@@ -1,0 +1,15 @@
+.env
+.venv/
+.uv-cache/
+__pycache__/
+.pytest_cache/
+datos/indice.json
+datos/*.tmp
+datos/*.sqlite3
+datos/*.sqlite3-wal
+datos/*.sqlite3-shm
+.tools/
+web/node_modules/
+web/dist/
+web/test-results/
+web/playwright-report/
